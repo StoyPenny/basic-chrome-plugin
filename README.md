@@ -16,7 +16,7 @@ The manifest file defines important settings that Chrome uses to run the extensi
 - Which files to inject (content.js and style.css)
 - When and where to inject these files (at document start, on all web pages)
 
-It works even in frames embedded within pages (enabled by` "all_frames": true`).
+It works even in frames embedded within pages (enabled by `"all_frames": true`).
 
 The `"content_scripts"` section is particularly important as it defines what gets injected into web pages and under what conditions. You can add more CSS/JS files that only run on speicic sites by updating your manifest file to follow allong with the example shown here:
 
@@ -36,7 +36,8 @@ The `"content_scripts"` section is particularly important as it defines what get
   {
     "run_at": "document_start",
     "matches": [
-      "https://*.stackoverflow.com/*"        ],
+      "https://*.stackoverflow.com/*"
+    ],
     "js": [
       "my_functions_file_3.js",
       "my_functions_file_4.js"
