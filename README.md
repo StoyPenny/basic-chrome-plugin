@@ -1,3 +1,5 @@
+![pcesk-wide](https://github.com/user-attachments/assets/c4f9c7d0-4d11-43f4-812a-da7fa4e0f0ca)
+
 # Personal Chrome Extension Starter Kit
 
 This is a collection of files for rolling out your own custom Chrome browswer extension. These files are super basic intentionally, only meant as a basic setup to get you started with adding HTML and CSS to any site you want in your browser. These are perfect for personal use in your browswer where you can easily tweak styles on any site you choose, helping you alleviate your personal annoyances when visiting those sites where something is just a little off. 
@@ -57,6 +59,17 @@ Here you can add any JS that you want to execute or add to a page. There is a sa
 
 
 ## Import Extension Into Chrome
-1. Open Chrome: Go to chrome://extensions/
+1. Open Chrome: Go to chrome://extensions
 2. Enable Developer Mode: Toggle the switch in the top right corner
 3. Load Unpacked: Click the "Load unpacked" button near the logo in the top left and select the folder for this project
+
+## Update Extension
+One your extension has already by loaded into Chrome, anytime you make file changes to the folder that Chrome is pointing at, it will show a small update button in the lower right of your extension. 
+1. Open Chrome: Go to chrome://extensions
+2. Find your extension, will look similar to the image below
+3. Press the refresh button in the lower right corner
+
+![image](https://github.com/user-attachments/assets/6d73f78c-e18f-44fd-8c77-5a543f022407)
+
+
+
