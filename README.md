@@ -54,3 +54,9 @@ This is where you can easily add any styles you want to use on pages you visit i
 
 ### content.js
 Here you can add any JS that you want to execute or add to a page. There is a sample in the file to log a message to the browser console by default, this should be removed so you can add whatever you want to run. 
+
+
+## Import Extension Into Chrome
+1. Open Chrome: Go to chrome://extensions/
+2. Enable Developer Mode: Toggle the switch in the top right corner
+3. Load Unpacked: Click the "Load unpacked" button near the logo in the top left and select the folder for this project
