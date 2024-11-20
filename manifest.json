@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Custom Injector",
+    "version": "1.4",
+    "description": "Injects custom CSS and JS into webpages. Intended as a basic starter template for making basic extensions to modify page layouts.",
+    "content_scripts": [
+    {
+      "run_at": "document_start",
+      "all_frames": true,
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+   ]
+  }

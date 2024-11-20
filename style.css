@@ -1,0 +1,10 @@
+/* Add your custom CSS here */
+
+/* Example styles */
+body,
+html,
+p,
+div,
+span {
+    color: red;
+}
