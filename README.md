@@ -2,7 +2,7 @@
 
 # Personal Chrome Extension Starter Kit
 
-This is a collection of files for rolling out your own custom Chrome browswer extension. These files are super basic intentionally, only meant as a basic setup to get you started with adding HTML and CSS to any site you want in your browser. These are perfect for personal use in your browswer where you can easily tweak styles on any site you choose, helping you alleviate your personal annoyances when visiting those sites where something is just a little off. 
+This is a collection of essential files for rolling out your own custom Chrome browser extension. These files are super basic intentionally, only meant as a bare bones setup to get you started with adding HTML and CSS to any site you want in your browser. These are perfect for personal use in your browser where you can easily tweak styles on any site you choose, helping alleviate your personal annoyances when visiting those sites where something is just a little off. 
 
 ## Getting Started
 Download the files or fork and clone this repo locally to get started. 
@@ -50,7 +50,7 @@ The `"content_scripts"` section is particularly important as it defines what get
 ```
 
 ### style.css
-This is where you can easily add any styles you want to use on pages you visit in your browser. There is a sample that will turn some of the site's text red, this should be removed and replaced with your own custom styles. Remember if you are using one stylesheet across many sites, you may need to add greater specificity to your selectors to prevent any unwanted side effects of code that is meant for only one site or another. Styles and selectors may be updated any time by the site owners, causing you to need to update your code.
+This is where you can easily add any styles you want to use on pages you visit in your browser. There is a sample that will turn some of the site's text red, this should be removed and replaced with your own custom styles. Remember if you are using one stylesheet across many sites, you may need to add greater specificity to your selectors to prevent any unwanted side effects of code that is meant for only one site or another.
 
 
 
@@ -64,7 +64,7 @@ Here you can add any JS that you want to execute or add to a page. There is a sa
 3. Load Unpacked: Click the "Load unpacked" button near the logo in the top left and select the folder for this project
 
 ## Update Extension
-One your extension has already by loaded into Chrome, anytime you make file changes to the folder that Chrome is pointing at, it will show a small update button in the lower right of your extension. 
+Once your extension has already been loaded into Chrome, anytime you make local file changes to the folder that Chrome is pointing at, it will show a small update button in the lower right of your extension. 
 1. Open Chrome: Go to chrome://extensions
 2. Find your extension, will look similar to the image below
 3. Press the refresh button in the lower right corner
